@@ -4,6 +4,8 @@ Slides : https://jrladd.com/slides/networkbasics
 
 Glossaire : https://jrladd.com/network-glossary.html
 
+Bibliographie : https://historicalnetworkresearch.org/bibliography
+
 # Definition
 
 In a network, there are entities (nodes) and relationships (edges).
