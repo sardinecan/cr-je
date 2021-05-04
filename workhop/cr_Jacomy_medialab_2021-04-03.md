@@ -62,21 +62,21 @@ La lecture diagramatique s'applique bien aux petits réseaux (moins de 100 nœud
 
 Pour voir des groupes l'homme a besoin de voir des écarts. L'algorythme ne voit pas les choses comme ça. Il pense de manière probabiliste, il s'interesse en quelque sorte au barycentre. 
 
-L'algo de détection de communauté peut donc voir des groupes qui ne sont pour autant pas complètement séparés, que l'œil n'arriverait pas à distinguer — on peut les répérer tout de même à l'œil car on remarque une sorte d'élongation. Si on lance plusieurs fois l'algo ou qu'on change certains paramètres, les communautés détectées peuvent varier, sauf aux extrémités, c'est dans l'entre-deux qu'on a des variations. Encore une fois, il faut donc faire attentions à ce qu'on voit.
+L'algo de détection de communauté peut donc voir des groupes qui ne sont pour autant pas complètement séparés, que l'œil n'arriverait pas à distinguer — on peut les répérer tout de même à l'œil car on remarque une sorte d'élongation. Si on lance plusieurs fois l'algo ou qu'on change certains paramètres, les communautés détectées peuvent varier, sauf aux extrémités, c'est dans l'entre-deux qu'on a des variations. Encore une fois, il faut faire attentions à ce qu'on voit.
 
 ## Quels groupes voit-on avec une spatialisation simulant des forces
 
 Voir papier de Peixoto sur les Stochastic block models : le groupe comme quelque chose de *cohésif* est une notion qu'on a d'un groupe, mais il y en a d'autre qui ne sont pas nécessairement « cohésives ».
 
-Dire qu'il y a des communautés est une chose, montrer des communautés en est une autres, et identifier correctement chaque membre d'une communauté en est une autres, notamment losqu'il y a des recouvrements.
+Dire qu'il y a des communautés est une chose, montrer des communautés en est une autre, et identifier correctement chaque membre d'une communauté en est une autre, notamment losqu'il y a des recouvrements (nœuds qui appartient à plusieurs groupes).
 
 Les algo de détection de communautés ne sont pas stables, car il n'y a pas de communautés préexistentes dans un réseau. 
 
-Pour voir les groupes dans des structures il faut avoir des liens longs, Il est parfois nécessaire pour ça de sacrifier certains liens : si on n'est pas capable de sacrifier certain liens pour permettre cette élongation, on ne peut plus distinguer ces groupes. C'est pour ça que certains militent pour ne pas utiliser de longueur de liens non extensible.
+Pour voir les groupes dans des structures il faut avoir des liens longs, Il est parfois nécessaire pour ça de sacrifier certains liens : si on n'est pas capable de sacrifier certains liens pour permettre cette élongation, on ne peut plus distinguer ces groupes. C'est pour ça que certains militent pour ne pas utiliser de longueur de liens non extensible.
 
 ## Connected-closeness
 
-C'est une mesure pour aider à comprendre les réseaux. Elle est basée sur l'idée que de nombreux graphs de réseaux utilisent des algo de placement par assimilation de force qui tentent de rapprocher les nœuds connectés. Mais en même temps, nous savons que deux nœuds qui sont proches dans la visualisation ne sont pas nécessairement connectés, et qu'il y a toujours des nœuds connectés qui sont éloignés. 
+C'est une mesure pour aider à comprendre les réseaux. Elle est basée sur l'idée que de nombreux graphs de réseaux utilisent des algo de placement par assimilation de force qui tentent de rapprocher les nœuds connectés. Mais en même temps, nous savons que deux nœuds qui sont proches dans la visualisation ne sont pas nécessairement connectés, et qu'il y a toujours des nœuds connectés qui sont éloignés…
 
 voir ici <https://observablehq.com/@jacomyma/highlights-on-connected-closeness>
 
