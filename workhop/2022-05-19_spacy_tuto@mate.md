@@ -1,7 +1,12 @@
-# spaCy
+# spaCy - tuto@mate
 Clément Plancq - Librairie Python pour le TAL.
+Developpé par Matthew Honnibal et Ines Montani. 
 
-ressources pour tester le code sans installer Python et spaCy : [notebook du tuto](https://github.com/clement-plancq/tuto-mate) (cliquer sur launch binder dans le README.md)
+## Ressources
+ - [Notebook du tuto@mate](https://github.com/clement-plancq/tuto-mate) pour tester le code sans installer Python et spaCy (cliquer sur launch binder dans le README.md)
+ - [Cours par Ines Montani](https://course.spacy.io/fr/)
+
+
 
 ## Introduction
 
@@ -20,7 +25,7 @@ Peut faire :
 
 SpaCy utilise des modèles statistique (méthode neuronales).
 
-Intérêts : c'est dy Python (wrapper R également), simple à prendre en main, très bien documenté (doc, [tuto](https://course.spacy.io/en/)), grosse communauté sur github, fournit les méthodes et les moyens d'adapter le traitement et ou le modèle à des besoins particuliers ! Mais ce n'est pas forcément l'outils qui sera le meilleurs pour le français dans toutes les tâches de TAL.
+Intérêts : c'est dy Python (wrapper R également), simple à prendre en main, très bien documenté (doc, tuto, etc.), grosse communauté sur github, fournit les méthodes et les moyens d'adapter le traitement et ou le modèle à des besoins particuliers ! Mais ce n'est pas forcément l'outils qui sera le meilleurs pour le français dans toutes les tâches de TAL.
 
 Il existe d'autre frameworks pour le TAL
 - NLKT : python, orienté pédagogie, chois des méthodes et algos à utiliser
